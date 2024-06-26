@@ -1,4 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
+
+}
+
+/* . utilizando uma classe especifica */
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.apresentacao {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
 }
